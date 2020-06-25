@@ -434,6 +434,10 @@ a:hover {
   background: #292F36;
 }
 
+.bg-interaction{
+  background: #0F0F0F;
+}
+
 .overly {
   position: relative;
 }
