@@ -203,9 +203,23 @@ wow.init();
 /* ========================================================================= */
 /*	Smooth Scroll
 /* ========================================================================= */
-var scroll = new SmoothScroll('a[href*=\'#\']');
+//var scroll = new SmoothScroll('a[href*=\'#\']');
+$("#nav a, #btn-vote").on("click", function(e) {
+  e.preventDefault();
 
+  var hash = this.hash;
+  var top = $(hash).offset().top - 72;
+  if (top < 0) {
+  	top = 0;
+  }
+  console.log(top);
 
+  $('html, body').animate({
+    'scrollTop': top
+  }, 600, 'easeInOutExpo', function() {
+
+  });
+});
 
 /* ========================================================================= */
 /*	Google Map Customization
@@ -325,4 +339,4 @@ function initialize() {
 	map.setMapTypeId('roadatlas');
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+//google.maps.event.addDomListener(window, 'load', initialize);

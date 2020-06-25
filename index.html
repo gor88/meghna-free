@@ -7,12 +7,44 @@
 <!--<![endif]-->
 
 <head>
+	<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WJ5KZFB');</script>
+		<!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84755529-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-84755529-3');
+		</script>
+
+		<!-- Hotjar Tracking Code for www.impulsabarcelona.tk -->
+		<script>
+		    (function(h,o,t,j,a,r){
+		        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		        h._hjSettings={hjid:1870299,hjsv:6};
+		        a=o.getElementsByTagName('head')[0];
+		        r=o.createElement('script');r.async=1;
+		        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		        a.appendChild(r);
+		    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="description" content="Meghna One page parallax responsive HTML Template ">
 
 	<meta name="author" content="Muhammad Morshed">
 
-	<title>Meghna | Responsive Multipurpose Parallax HTML5 Template</title>
+	<title>Impulsa Barcelona</title>
+	<link rel="shortcut icon" href="images/favicon.png">
 
 	<!-- Mobile Specific Meta
 		================================================== -->
@@ -38,11 +70,16 @@
 	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/wheel.css">
 
 
 </head>
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ5KZFB"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 	<!--
 	    Start Preloader
 	    ==================================== -->
@@ -65,19 +102,18 @@
  <!--
 Welcome Slider
 ==================================== -->
-
-<section class="hero-area overlay" style="background-image: url('images/banner/hero-area.jpg');">
+ <!--style="background-image: url('images/banner/hero-area.jpg');">-->
+<section class="hero-area overlay">
 	<video autoplay muted loop class="hero-video">
 		<source src="images/banner/hero-video.mp4" type="video/mp4">
 	</video>
 	<div class="block">
 		<div class="video-button">
 			
-		</a>
 		</div>
 		<h1>Impulsa Barcelona</h1>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!</p>
-		<a data-scroll href="#about" class="btn btn-transparent">Vota</a>
+		<p>Ayudanos a crear una nueva red de transporte limpia y respetuosa con el medio ambiente</p>
+		<a data-scroll href="#about" class="btn btn-transparent" id="btn-vote">Vota</a>
 	</div>
 </section>
 
@@ -98,8 +134,9 @@ Welcome Slider
     
                 <!-- logo -->
                 <a class="navbar-brand logo" href="#body">
+                	<img src="images/logobcn.png" alt="Website Logo" title="Logo">
                     <!-- <img src="images/logo.png" alt="Website Logo" /> -->
-                    <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!--<svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                             <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#53a771" stroke-width="3">
                                 <ellipse id="Oval" cx="20.5" cy="20" rx="20.5" ry="20"></ellipse>
@@ -107,7 +144,7 @@ Welcome Slider
                                 <path d="M21,20 L34,7" id="Line-3" stroke-linecap="square"></path>
                             </g>
                         </g>
-                    </svg>
+                    </svg> -->
                 </a>
             <!-- /logo -->
         </div>
@@ -115,14 +152,14 @@ Welcome Slider
         <!-- main nav -->
         <nav class="collapse navbar-collapse navbar-right" role="Navigation">
             <ul id="nav" class="nav navbar-nav navigation-menu">
-                <li><a data-scroll href="#body">Home</a></li>
+                <li><a data-scroll href="#body">Inicio</a></li>
                 <li><a data-scroll href="#about">Votación</a></li>
-                <li><a data-scroll href="#services">Services</a></li>
-                <li><a data-scroll href="#portfolio">Portfolio</a></li>
-                <li><a data-scroll href="#our-team">Team</a></li>
-                <li><a data-scroll href="#pricing">Pricing</a></li>
-                <li><a data-scroll href="#blog">Blog</a></li>
-                <li><a data-scroll href="#contact-us">Contact</a></li>
+                <!--<li><a data-scroll href="#services">Services</a></li>-->
+                <!--<li><a data-scroll href="#portfolio">Portfolio</a></li>-->
+                <li><a data-scroll href="#blog">Aplicación</a></li>
+                <!--<li><a data-scroll href="#pricing">Pricing</a></li>-->
+                <li><a data-scroll href="#our-team">Equipo</a></li>
+                <li><a data-scroll href="#contact-us">Formulario</a></li>
             </ul>
         </nav>
         <!-- /main nav -->
@@ -136,13 +173,225 @@ Welcome Slider
 <!--
 		Start Vote Section
 		==================================== -->
+		<!--<section class="bg-one about section">
+			<div class="container">
+				<div class="row"> -->
+				
+					<!-- section title -->
+					<!--<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2>Tu <span class="color">Votación</span> </h2>
+						<div class="border"></div>
+					</div> -->
+					<!-- /section title -->
+					
+					<!-- About item -->
+					<!--<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
+						<div class="block">							
+							<div class="icon-box">
+								<img class="img-responsive" src="images/distrito.png" alt="">
+							</div> -->					
+							<!-- Express About Yourself -->
+							<!--<div class="content text-center">
+								<h3 class="ddd">Distrito 22@</h3>								
+								<p>La zona tecnológica de Barcelona, situada en el barrio de Poblenou.</p>
+							</div>
+						</div>
+					</div> -->
+					<!-- End About item -->
+					
+					<!-- About item -->
+					<!--<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+						<div class="block">
+							<div class="icon-box">
+								<img class="img-responsive" src="images/diagonal.png" alt="">
+							</div> -->
+							<!-- Express About Yourself -->
+							<!--<div class="content text-center">
+								<h3>Diagonal Norte</h3>
+								<p>Situado en el barrio de Les Corts, una de las zonas con más oficinas y campus universitarios.</p>
+							</div>
+						</div>
+					</div> -->
+					<!-- End About item -->
+					
+					<!-- About item -->					
+					<!--<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="block kill-margin-bottom">
+							<div class="icon-box">
+								<img class="img-responsive" src="images/barceloneta.png" alt="">
+							</div> -->
+							<!-- Express About Yourself -->
+							<!--<div class="content text-center">
+								<h3>Barceloneta</h3>
+								<p>Uno de los sitios más turísticos y más transitados por bicicletas.</p>
+							</div>
+						</div>
+					</div> -->
+					<!-- End About item -->
+					
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+		<!--
+Start Counter Section
+==================================== -->
+		
+<!--<section id="counter" class="parallax-section bg-1 section overly">
+	<div class="container">
+		<div class="row"> -->
+		
+			<!-- first count item -->
+			<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
+				<div class="counters-item">
+					<i class='fas fa-industry'></i>
+					<span data-speed="3000" data-to="320">320</span>
+					<h3>Votos 22@</h3>
+				</div>
+			</div> -->
+			<!-- end first count item -->
+		
+			<!-- second count item -->
+			<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="counters-item">
+					<i class='fas fa-building'></i>
+					<span data-speed="3000" data-to="565">565</span>
+					<h3>Votos Diagonal</h3>
+				</div>
+			</div> -->
+			<!-- end second count item -->
+		
+			<!-- third count item -->
+			<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="counters-item">
+					<i class="tf-ion-thumbsup"></i>
+					<span data-speed="3000" data-to="95">95</span>
+					<h3>Positive feedback</h3>
+					
+				</div>
+			</div> -->
+			<!-- end third count item -->
+			
+			<!-- fourth count item -->
+			<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+				<div class="counters-item kill-margin-bottom">
+					<i class='fas fa-umbrella-beach'></i>
+					<span data-speed="3000" data-to="2500">2500</span>
+					<h3>Votos Barceloneta</h3>
+				</div>
+			</div> -->
+			<!-- end fourth count item -->
+			
+		</div> 		<!-- end row -->
+	</div>   	<!-- end container -->
+</section>   <!-- end section --> 
+
+<section class="section about-2 padding-0 bg-dark" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 padding-0">
+				<img class="img-responsive" src="images/biciuno.jpg" alt="">
+			</div>
+			<div class="col-md-6">
+				<div class="content-block">
+					<h2>Crea energía para Barcelona</h2>
+					<p>El S-PARK convierte la energía producida por las personas en sus bicicletas, en electricidad para su propio vecindario.</p>
+					<p>Gracias a su sistema de rueda delantera, esta almacena la energía generada durante el ciclo y el frenado en baterías. Y al final del día, cuando todos regresan a casa y estacionan su bicicleta, la energía se redistribuye a la red eléctrica del vecindario, proporcionando suficiente electricidad limpia.</p>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="media">
+								<!--<div class="pull-left">
+									<i class="tf-circle-compass"></i>	
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">SEO Optimized</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="media">
+								<div class="pull-left">
+									<i class="tf-hotairballoon"></i>	
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Easy Customization</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus </p>
+								</div>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action section-sm bg-1 overly">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>El sistema S-Park</h2>
+				<p>Inventado en 2019 por dos jóvenes holandeses <br> Te explicamos paso por paso como conseguimos transformar la energía cinética en luz.</p>
+				<a href="#" class="btn btn-main">Ver más</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<!-- Start Team Skills
+		=========================================== -->
+		
+		<section id="team-skills" class="parallax-section section section-bg overly">
+			<div class="container">
+				<div class="row" >
+					<!-- section title -->
+					<div class="col-md-12">
+						<div class="title text-center">
+							<h2>Interacción</h2>
+							<div class="border"></div>
+						</div>
+					</div>
+					<!-- /section title -->
+				</div>  		<!-- End row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h2>We’ve skilled in wide range of web and <br>
+							Other digital market tools.</h2>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!</p>
+							<img class="img-responsive" src="images/about/company-growth.png" alt="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row wheel-div">
+					        
+					          <img src="images/wheel/rueda.png" class="wheel-image" />
+					          <img src="images/wheel/battery20transparent2-01-2.png" class="wheel-bg" />
+					          <img src="images/wheel/greenbck.png" class="wheel-power" />
+					          <img src="images/wheel/gifilu.gif" class="gif-iluminati d-none" />
+					              
+					    </div>
+					</div>
+				</div>
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+
+<!--
+		Start Vote Section
+		==================================== -->
 		<section class="bg-one about section">
 			<div class="container">
 				<div class="row">
 				
 					<!-- section title -->
 					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>Tu <span class="color">Votación</span> </h2>
+						<h2>Tu Votación</h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
@@ -171,7 +420,7 @@ Welcome Slider
 							<!-- Express About Yourself -->
 							<div class="content text-center">
 								<h3>Diagonal Norte</h3>
-								<p>Situado en el barrio de Les Corts, una de las zonas con más oficinas y campus universitarios.</p>
+								<p>Situado en el barrio de Les Corts, junto a oficinas y campus universitarios.</p>
 							</div>
 						</div>
 					</div> 
@@ -249,79 +498,32 @@ Start Counter Section
 	</div>   	<!-- end container -->
 </section>   <!-- end section -->
 
-<section class="section about-2 padding-0 bg-dark" id="about">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 padding-0 ">
-				<img class="img-responsive" src="images/about/about-business-man.jpg" alt="">
-			</div>
-			<div class="col-md-6">
-				<div class="content-block">
-					<h2>We’re A Digital Design Agency.</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet vel et mollitia nemo corporis sed ut, exercitationem incidunt, rerum nam doloremque quos ratione doloribus, officiis adipisci error quasi soluta?</p>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, magnam.</p>
-					<div class="row">
-						<div class="col-md-6">
-							<div class="media">
-								<div class="pull-left">
-									<i class="tf-circle-compass"></i>	
-								</div>
-								<div class="media-body">
-									<h4 class="media-heading">SEO Optimized</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="media">
-								<div class="pull-left">
-									<i class="tf-hotairballoon"></i>	
-								</div>
-								<div class="media-body">
-									<h4 class="media-heading">Easy Customization</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus </p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--
-Start Call To Action
-==================================== -->
-<section class="call-to-action section-sm bg-1 overly">
+<!-- Start Blog Section =========================================== -->
+		
+<section id="blog" class="section">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Great Design & Incredible Features</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
-				<a href="#" class="btn btn-main">Start a project with us</a>
-			</div>
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
+		<video loop muted autoplay class="impulsa" width="1440" height="810">
+  			<source src="images/impulsa_app.mp4" type="video/mp4">
+ 		</video>
+	</div> <!-- end container -->
+</section> <!-- end section -->
 
 <!-- Start Services Section
 ==================================== -->
 
-<section id="services" class="bg-one section">
+<!-- <section id="services" class="bg-one section">
 	<div class="container">
-		<div class="row">
+		<div class="row">-->
 			
 			<!-- section title -->
-			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+			<!--<div class="title text-center wow fadeIn" data-wow-duration="500ms">
 				<h2>Our <span class="color">Services</span></h2>
 				<div class="border"></div>
-			</div>
+			</div>-->
 			<!-- /section title -->
 			
             <!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+			<!--<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-globe"></i>
@@ -329,11 +531,11 @@ Start Call To Action
 					<h3>WordPress Theme</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article> -->
             <!-- End Single Service Item -->
             
             <!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+			<!--<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-ion-laptop"></i>
@@ -341,11 +543,11 @@ Start Call To Action
 					<h3>Responsive Design</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article> -->
             <!-- End Single Service Item -->
             
             <!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+			<!--<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-genius"></i>
@@ -353,11 +555,11 @@ Start Call To Action
 					<h3>Media &amp; Advertisement</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article> -->
 			<!-- End Single Service Item -->
 			
 			<!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+			<!--<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-dial"></i>
@@ -365,11 +567,11 @@ Start Call To Action
 					<h3>Graphic Design</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article>-->
 			<!-- End Single Service Item -->
 			
 			<!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+			<!--<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-target3"></i>
@@ -377,11 +579,11 @@ Start Call To Action
 					<h3>Apps Development</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article>-->
 			<!-- End Single Service Item -->
 			
 			<!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+			<!--<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
 				<div class="service-block text-center kill-margin-bottom">
 					<div class="service-icon text-center">
 						<i class="tf-lifesaver"></i>
@@ -389,7 +591,7 @@ Start Call To Action
 					<h3>Networking</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article>-->
 			<!-- End Single Service Item -->
 				
 		</div> 		<!-- End row -->
@@ -397,92 +599,23 @@ Start Call To Action
 </section>   <!-- End section -->
 	
 
-<!-- Start Team Skills
-		=========================================== -->
-		
-		<section id="team-skills" class="parallax-section section section-bg overly">
-			<div class="container">
-				<div class="row" >
-					<!-- section title -->
-					<div class="col-md-12">
-						<div class="title text-center">
-							<h2>Our <span class="color">Skills</span></h2>
-							<div class="border"></div>
-						</div>
-					</div>
-					<!-- /section title -->
-				</div>  		<!-- End row -->
-				<div class="row">
-					<div class="col-md-6">
-						<h2>We’ve skilled in wide range of web and <br>
-							Other digital market tools.</h2>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!</p>
-							<img class="img-responsive" src="images/about/company-growth.png" alt="">
-					</div>
-					<div class="col-md-6">
-						<ul class="skill-bar">
-							<li>
-								<p><span>01-</span> Business Development</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:90%">
-									</div>
-								</div>
-							</li>
-							<li>
-								<p><span>02-</span> Analysis</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:70%">
-									</div>
-								</div>
-							</li>
-							<li>
-								<p><span>03-</span> Design</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:85%">
-									</div>
-								</div>
-							</li>
-							<li>
-								<p><span>04-</span> IOS Development</p>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:60%">
-									</div>
-								</div>
-							</li>
-							<li>
-									<p><span>04-</span> Andriod Development</p>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" aria-valuenow="70"
-										aria-valuemin="0" aria-valuemax="100" style="width:94%">
-										</div>
-									</div>
-								</li>
-						</ul>
-					</div>
-				</div>
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
 
 <!-- Start Portfolio Section
 		=========================================== -->
 
-<section class="portfolio section" id="portfolio">
+<!--<section class="portfolio section" id="portfolio">
 	<div class="container">
 		<div class="row ">
-			<div class="col-lg-12">
+			<div class="col-lg-12">-->
 				<!-- section title -->
-				<div class="title text-center">
+				<!--<div class="title text-center">
 					<h2>Our <span class="color">Works</span></h2>
 					<div class="border"></div>
-				</div>
+				</div>-->
 				<!-- /section title -->
 			</div> <!-- /end col-lg-12 -->
 		</div> <!-- end row -->
-		<div class="row">
+		<!--<div class="row">
 			<div class="col-md-12">
 				<div class="portfolio-filter">
 					<button class="active" type="button" data-filter="all">All</button>
@@ -610,7 +743,7 @@ Start Call To Action
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 	</div> <!-- end container -->
 </section> <!-- End section -->
 
@@ -620,7 +753,7 @@ Start Counter Section
 		
 <!--<section id="counter" class="parallax-section bg-1 section overly">
 	<div class="container">
-		<div class="row">
+		<div class="row">-->
 		
 			<!-- first count item -->
 			<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
@@ -639,7 +772,7 @@ Start Counter Section
 					<span data-speed="3000" data-to="565">565</span>
 					<h3>Projects completed</h3>
 				</div>
-			</div>
+			</div>-->
 			<!-- end second count item -->
 		
 			<!-- third count item -->
@@ -650,7 +783,7 @@ Start Counter Section
 					<h3>Positive feedback</h3>
 					
 				</div>
-			</div>
+			</div>-->
 			<!-- end third count item -->
 			
 			<!-- fourth count item -->
@@ -660,12 +793,239 @@ Start Counter Section
 					<span data-speed="3000" data-to="2500">2500</span>
 					<h3>Cups of Coffee</h3>
 				</div>
-			</div>
+			</div>-->
 			<!-- end fourth count item -->
 			
 		</div> 		<!-- end row -->
 	</div>   	<!-- end container -->
 </section>   <!-- end section -->
+
+
+
+<!-- Start Pricing section
+		=========================================== -->
+		
+		<!--<section id="pricing" class="pricing section">
+			<div class="container">
+				<div class="row"> -->
+					
+					<!-- section title -->
+				   <!-- <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+			        	<h2>Our Greatest<span class="color"> Plans</span></h2>
+				        <div class="border"></div>
+				    </div> -->
+				    <!-- /section title -->
+					
+					<!-- single pricing table -->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
+						<div class="price-item"> -->
+							
+							<!-- plan name & value -->
+							<!--<div class="price-title">
+								<h3>Free</h3>
+								<p><strong class="value">$99</strong>/ month</p>
+							</div> -->
+							<!-- /plan name & value -->
+							
+							<!-- plan description -->
+							<!--<ul>
+								<li>1GB Disk Space</li>
+								<li>10 Email Account</li>
+								<li>Script Installer</li>
+								<li>1 GB Storage</li>
+								<li>10 GB Bandwidth</li>
+								<li>24/7 Tech Support</li>
+							</ul> -->
+							<!-- /plan description -->
+							
+							<!-- signup button -->
+							<!--<a class="btn btn-transparent" href="#">Signup</a> -->
+							<!-- /signup button -->
+							
+						</div>
+					</div>
+					<!-- end single pricing table -->
+					
+					<!-- single pricing table -->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+						<div class="price-item"> -->
+						
+							<!-- plan name & value -->
+							<!--<div class="price-title">
+								<h3>Silver</h3>
+								<p><strong class="value">$149</strong/>/ month</p>
+							</div>-->
+							<!-- /plan name & value -->
+							
+							<!-- plan description -->
+							<!--<ul>
+								<li>1GB Disk Space</li>
+								<li>10 Email Account</li>
+								<li>Script Installer</li>
+								<li>1 GB Storage</li>
+								<li>10 GB Bandwidth</li>
+								<li>24/7 Tech Support</li>
+							</ul> -->
+							<!-- /plan description -->
+							
+							<!-- signup button -->
+							<!--<a class="btn btn-transparent" href="#">Signup</a>-->
+							<!-- /signup button -->
+							
+						</div>
+					</div>
+					<!-- end single pricing table -->
+					
+					<!-- single pricing table -->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="price-item"> -->
+							
+							<!-- plan name & value -->
+							<!--<div class="price-title">
+								<h3>Gold</h3>
+								<p><strong class="value">$199</strong/>/ month</p>
+							</div>-->
+							<!-- /plan name & value -->
+							
+							<!-- plan description -->
+							<!--<ul>
+								<li>1GB Disk Space</li>
+								<li>10 Email Account</li>
+								<li>Script Installer</li>
+								<li>1 GB Storage</li>
+								<li>10 GB Bandwidth</li>
+								<li>24/7 Tech Support</li>
+							</ul> -->
+							<!-- /plan description -->
+							
+							<!-- signup button -->
+							<!--<a class="btn btn-transparent" href="#">Signup</a>-->
+							<!-- /signup button -->
+							
+						</div>
+					</div>
+					<!-- end single pricing table -->
+					
+					<!-- single pricing table -->
+					<!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="750ms">
+						<div class="price-item">-->
+						
+							<!-- plan name & value -->
+							<!--<div class="price-title">
+								<h3>Platinum</h3>
+								<p><strong class="value">$299</strong/>/ month</p>
+							</div>-->
+							<!-- /plan name & value -->
+							
+							<!-- plan description -->
+							<!--<ul>
+								<li>1GB Disk Space</li>
+								<li>10 Email Account</li>
+								<li>Script Installer</li>
+								<li>1 GB Storage</li>
+								<li>10 GB Bandwidth</li>
+								<li>24/7 Tech Support</li>
+							</ul>-->
+							<!-- /plan description -->
+							
+							<!-- signup button -->
+							<!--<a class="btn btn-transparent" href="#">Signup</a>-->
+							<!-- /signup button -->
+							
+						</div>
+					</div>
+					<!-- end single pricing table -->
+				    
+					
+				</div>       <!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+<!-- Start Testimonial
+		=========================================== -->
+
+<section id="testimonial" class="testimonial overly section bg-2">
+	<div class="container">
+		<div class="row">				
+			<div class="col-lg-12">
+				<!-- testimonial wrapper -->
+				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+				
+					<!-- testimonial single -->
+					<div class="item text-center">
+						
+						<!-- client photo -->
+						<!--<div class="client-thumb">
+							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
+						</div>-->
+						<!-- /client photo -->
+						
+						<!-- client info -->
+						<!--<div class="client-info">
+							<div class="client-meta">
+								<h3>Jonathon Andrew</h3>
+								<span>Dec 26, 2018</span>
+							</div>-->
+							<div class="client-comment">
+								<p>Con iMPULSA  podrás localizar y reservar, entre centenares de localizaciones, en el mapa de la app, desplazarte con ella hasta el destino que desees y aparcarla en nuestra zona de carga y solo necesitarás tu Smartphone.</p>
+								<p>Te proporcionará estadísticas con la energía producida y su distribución a través de las red eléctrica. Podrás ver el numero de viajes que habrás generado para los TMB.</p>
+							</div>
+						</div>
+						<!-- /client info -->
+					</div>
+					<!-- /testimonial single -->
+				
+					<!-- testimonial single -->
+					<!--<div class="item text-center">
+						
+						<!-- client photo -->
+						<!--<div class="client-thumb">
+							<img src="images/team/client-2.jpg" class="img-responsive" alt="Meghna">
+						</div>
+						<!-- /client photo 
+						
+						<!-- client info 
+						<!--<div class="client-info">
+							<div class="client-meta">
+								<h3>Jonathon Andrew</h3>
+								<span>Dec 26, 2018</span>
+							</div>
+							<div class="client-comment">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reiciendis qui in laborum obcaecati expedita blanditiis animi placeat, nemo exercitationem porro. Consequuntur qui commodi minima molestiae, dolores reprehenderit nemo inventore.</p>
+							</div>
+						</div>
+						<!-- /client info 
+					</div>
+					<!-- /testimonial single 
+				
+					<!-- testimonial single 
+					<div class="item text-center">
+						
+						<!-- client photo 
+						<!--<div class="client-thumb">
+							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
+						</div>
+						<!-- /client photo 
+						
+						<!-- client info 
+						<!--<div class="client-info">
+							<div class="client-meta">
+								<h3>Jonathon Andrew</h3>
+								<span>Dec 26, 2018</span>
+							</div>
+							<div class="client-comment">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolorem non delectus neque, voluptatem accusamus atque expedita doloribus minima iusto nemo, numquam eos quia maiores harum! Quaerat illum beatae necessitatibus!</p>
+							</div>
+						</div>-->
+						<!-- /client info -->
+					</div>
+					<!-- /testimonial single -->
+					
+				</div>		<!-- end testimonial wrapper -->
+			</div> 		<!-- end col lg 12 -->
+		</div>	    <!-- End row -->
+	</div>       <!-- End container -->
+</section>    <!-- End Section -->
 
 <!-- 
 Start Our Team
@@ -677,7 +1037,7 @@ Start Our Team
 		
 			<!-- section title -->
 			<div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-				<h2>Our <span class="color">Team</span></h2>
+				<h2>Equipo</h2>
 				<div class="border"></div>
 			</div>
 			<!-- /section title -->
@@ -816,304 +1176,6 @@ Start Our Team
 </section>   <!-- End section -->
 		
 
-<!-- Start Pricing section
-		=========================================== -->
-		
-		<section id="pricing" class="pricing section">
-			<div class="container">
-				<div class="row">
-					
-					<!-- section title -->
-				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-			        	<h2>Our Greatest<span class="color"> Plans</span></h2>
-				        <div class="border"></div>
-				    </div>
-				    <!-- /section title -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
-						<div class="price-item">
-							
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Free</h3>
-								<p><strong class="value">$99</strong>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="price-item">
-						
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Silver</h3>
-								<p><strong class="value">$149</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="price-item">
-							
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Gold</h3>
-								<p><strong class="value">$199</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="750ms">
-						<div class="price-item">
-						
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Platinum</h3>
-								<p><strong class="value">$299</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-				    
-					
-				</div>       <!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
-
-<!-- Start Testimonial
-		=========================================== -->
-
-<section id="testimonial" class="testimonial overly section bg-2">
-	<div class="container">
-		<div class="row">				
-			<div class="col-lg-12">
-				<!-- testimonial wrapper -->
-				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-				
-					<!-- testimonial single -->
-					<div class="item text-center">
-						
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-						
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
-				
-					<!-- testimonial single -->
-					<div class="item text-center">
-						
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-2.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-						
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reiciendis qui in laborum obcaecati expedita blanditiis animi placeat, nemo exercitationem porro. Consequuntur qui commodi minima molestiae, dolores reprehenderit nemo inventore.</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
-				
-					<!-- testimonial single -->
-					<div class="item text-center">
-						
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-						
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolorem non delectus neque, voluptatem accusamus atque expedita doloribus minima iusto nemo, numquam eos quia maiores harum! Quaerat illum beatae necessitatibus!</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
-					
-				</div>		<!-- end testimonial wrapper -->
-			</div> 		<!-- end col lg 12 -->
-		</div>	    <!-- End row -->
-	</div>       <!-- End container -->
-</section>    <!-- End Section -->
-
-<!-- Start Blog Section =========================================== -->
-		
-<section id="blog" class="section">
-	<div class="container">
-		<div class="row">
-			<!-- section title -->
-			<div class="title text-center wow fadeInDown">
-				<h2> Latest <span class="color">Posts</span></h2>
-				<div class="border"></div>
-			</div>
-			<!-- /section title -->
-			<div class="clearfix">
-				<!-- single blog post -->
-				<article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-					<div class="post-block">
-						<div class="media-wrapper">
-							<img src="images/blog/blog-post-1.jpg" alt="amazing caves coverimage" class="img-responsive">
-						</div>
-						<div class="content">
-							<h3><a href="">Simple Image Post</a></h3>
-							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
-						</div>
-					</div>						
-				</article>
-				<!-- /single blog post -->
-				
-				<!-- single blog post -->
-				<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-					<div class="post-block">
-						<div id="gallery-post" class="media-wrapper">
-							<div class="item">
-								<img src="images/blog/blog-post-1.jpg" alt="blog post" class="img-responsive">
-							</div>
-							<div class="item">
-								<img src="images/blog/blog-post-3.jpg" alt="blog post" class="img-responsive">
-							</div>
-							<div class="item">
-								<img src="images/blog/blog-post-2.jpg" alt="blog post | Meghna" class="img-responsive">
-							</div>
-						</div>
-						
-						<div class="content">
-							<h3><a href="">Simple Slider Post</a></h3>
-							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
-						</div>
-					</div>						
-				</article>
-				<!-- end single blog post -->
-				
-				<!-- single blog post -->
-				<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-					<div class="post-block">
-						<div class="media-wrapper">
-							<img src="images/blog/blog-post-6.jpg" alt="amazing caves coverimage" class="img-responsive">
-						</div>
-						
-						<div class="content">
-							<h3><a href="">Simple Image Post</a></h3>
-							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="blog-single.html">Read more</a>
-						</div>
-					</div>						
-				</article>
-				<!-- end single blog post -->
-			</div>
-			<div class="all-post text-center">
-				<a class="btn btn-main" href="blog.html">View All Post</a>
-			</div>
-		</div> <!-- end row -->
-	</div> <!-- end container -->
-</section> <!-- end section -->
-
 <!-- Srart Contact Us
 =========================================== -->		
 <section id="contact-us" class="contact-us section-bg">
@@ -1122,34 +1184,34 @@ Start Our Team
 			
 			<!-- section title -->
 			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-				<h2>Get In <span class="color">Touch</span></h2>
+				<h2>Formulario</h2>
 				<div class="border"></div>
 			</div>
 			<!-- /section title -->
 			
 			<!-- Contact Details -->
 			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>Contact Details</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.</p>
+				<h3>Datos de contacto</h3>
+				<p>Ayudanos a decidir en que barrio haremos la prueba piloto, no pierdas la oportunidad de hacernos llegar tu voto.  </p>
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
-						<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+						<span>Plaça de Sant Jaume, 1, 08002 Barcelona</span>
 					</div>
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-telephone-outline"></i>
-						<span>Phone: +880-31-000-000</span>
+						<span>Teléfono: 934 02 70 00</span>
 					</div>
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-iphone"></i>
-						<span>Fax: +880-31-000-000</span>
+						<span>Fax: 934 10 00 00 </span>
 					</div>
 					
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
-						<span>Email: hello@meghna.com</span>
+						<span>Email: impulsabarcelona@ayuntamientobcn.com</span>
 					</div>
 				</div>
 			</div>
@@ -1160,31 +1222,31 @@ Start Our Team
 				<form id="contact-form" method="post" action="sendmail.php" role="form">
 				
 					<div class="form-group">
-						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+						<input type="text" placeholder="Nombre y Apellidos" class="form-control" name="name" id="name">
 					</div>
 					
 					<div class="form-group">
-						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+						<input type="email" placeholder="Email" class="form-control" name="email" id="email">
 					</div>
 					
 					<div class="form-group">
-						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+						<input type="text" placeholder="Barrio elegido" class="form-control" name="subject" id="subject">
 					</div>
 					
 					<div class="form-group">
-						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+						<textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message"></textarea>	
 					</div>
 					
 					<div id="mail-success" class="success">
-						Thank you. The Mailman is on His Way :)
+						Gracias. El cartero esta en camino :)
 					</div>
 					
 					<div id="mail-fail" class="error">
-						Sorry, don't know what happened. Try later :(
+						Lo sentimos intentelo más tarde :(
 					</div>
 					
 					<div id="cf-submit">
-						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
 					</div>						
 					
 				</form>
@@ -1195,9 +1257,9 @@ Start Our Team
 	</div> <!-- end container -->
 	
 	<!-- Google Map -->
-	<div class="google-map">
+	<!--<div class="google-map">
 		<div id="map-canvas"></div>
-	</div>	
+	</div>-->	
 	<!-- /Google Map -->
 	
 </section> <!-- end section -->
@@ -1214,11 +1276,11 @@ Start Our Team
 				<!-- Footer Social Links -->
 				<div class="social-icon">
 					<ul class="list-inline">
-						<li><a href="https://facebook.com/themefisher"><i class="tf-ion-social-facebook"></i></a></li>
-						<li><a href="https://twitter.com/themefisher"><i class="tf-ion-social-twitter"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="tf-ion-social-youtube"></i></a></li>
-						<li><a href="https://dribbble.com/themefisher"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-						<li><a href="https://pinterest.com/themefisher"><i class="tf-ion-social-pinterest-outline"></i></a></li>
+						<li><a href="https://www.facebook.com/barcelona.cat/"><i class="tf-ion-social-facebook"></i></a></li>
+						<li><a href="https://twitter.com/bcn_ajuntament"><i class="tf-ion-social-twitter"></i></a></li>
+						<li><a href="http://www.youtube.com/user/bcnajuntament"><i class="tf-ion-social-youtube"></i></a></li>
+						<!--<li><a href="https://dribbble.com/themefisher"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+						<li><a href="https://pinterest.com/themefisher"><i class="tf-ion-social-pinterest-outline"></i></a></li>-->
 					</ul>
 				</div>
 				<!--/. End Footer Social Links -->
@@ -1241,10 +1303,10 @@ Start Our Team
 					</a>
 					<br />
 
-					<p>Design And Developed by <a href="http://www.themefisher.com">Themefisher.com</a>. Copyright
+					<p>Diseñada y desarollada por <a href="https://ajuntament.barcelona.cat/es/">ImpulsaBarcelona.tk</a>. Copyright
 						&copy; <script>
 							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved.</p>
+						</script>. Todos los derechos reservados.</p>
 				</div>
 				<!-- /copyright -->
 
@@ -1268,14 +1330,14 @@ Start Our Team
 		
 		<!-- Main jQuery -->
 		<script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+		<!-- Main jQuery-UI -->
+		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 		<!-- Bootstrap 3.1 -->
 		<script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 		<!-- Slick Carousel -->
 		<script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
 		<!-- Portfolio Filtering -->
 		<script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script>
-		<!-- Smooth Scroll -->
-		<script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
 		<!-- Magnific popup -->
 		<script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 		<!-- Google Map API -->
@@ -1288,6 +1350,7 @@ Start Our Team
 		<script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
 		<!-- Custom js -->
 		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/wheel.js"></script>
 		
     </body>
 </html>
