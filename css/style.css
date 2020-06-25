@@ -408,7 +408,6 @@ a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
   color: #fff;
@@ -682,6 +681,10 @@ a:hover {
 
 }
 
+.text-color{
+  color: #53a771;
+}
+
 .hero-video {
   left: 50%;
   min-height: 100%;
@@ -909,6 +912,10 @@ a:hover {
   float: left;
 }
 
+.icon-color{
+  color: #53a771;
+}
+
 .con-info span {
   margin: -5px 0 0 15px;
 }
@@ -981,6 +988,10 @@ a:hover {
   color: #53a771;
   margin: 0 0 10px;
   text-transform: uppercase;
+}
+
+.margin-text {
+  margin: 0 0 50px;
 }
 
 .price-title p {
@@ -1386,7 +1397,9 @@ a:hover {
 
 /*padding-right: 300px;*/
 .impulsa {
-  padding-right: 300px;
+  padding-right: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 
