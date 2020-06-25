@@ -435,7 +435,7 @@ a:hover {
 }
 
 .bg-interaction{
-  background: #0F0F0F;
+
 }
 
 .overly {
@@ -669,6 +669,17 @@ a:hover {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+#blog video {
+    width: 100%;
+    padding: 0;
+}
+
+.counter-items {
+  display: flex;
+  justify-content: center;
+
 }
 
 .hero-video {
